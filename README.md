@@ -1,4 +1,16 @@
+Grupo: Antony V B
+link youtube:
+linguagem: Python
+
 Parte 1:
+filósofos com deadlock:
+<img width="508" height="474" alt="image" src="https://github.com/user-attachments/assets/2e7d0842-9586-4c65-adec-ccbb9a9af49a" />
+instruções, só dar play, pode demorar mas em algum momento da deadlock.
+sem deadlock:
+<img width="539" height="439" alt="image" src="https://github.com/user-attachments/assets/59db5bfe-e965-4219-852d-b0f75d5be466" />
+
+instruções, só dar play.
+
 Relatório curto explicando a dinâmica do problema, por que o
 impasse surge e qual condição de Coffman será negada na solução proposta.
 Pseudocódigo ou fluxograma do protocolo, demonstrando a ordem de aquisição e liberação
@@ -18,6 +30,15 @@ o progresso é preservado pois não são gerados deadlocks, e a justiça é pres
 necessário para outro filosofo pegar o garfo para ou começar a comer ou pegar o seu garfo de menor numero e espera a sua vez pelo segundo garfo.
 
 Parte 2:
+semaforo com perdas:
+<img width="901" height="90" alt="image" src="https://github.com/user-attachments/assets/76a3d6b7-4692-49dd-815e-7b8c87b7a3e4" />
+instruções, só dar play, devido aos números serem baixos não acontece perda de dados e o maior numero que meu pc aguenta ainda é pequeno então para ver perda de dados é só aumentar as variáveis iniciais .
+sem perdas:
+<img width="896" height="100" alt="image" src="https://github.com/user-attachments/assets/dfc77e69-b552-4090-b1f4-f24c21165ac8" />
+
+instruções, só dar play.
+
+
 Tabela de resultados no README com pelo menos 3 execuções de cada versão: valor
 esperado, valor obtido, tempo de execução.
 Discussão escrita sobre: por que a versão sem sincronização perde incrementos, por que a
@@ -63,6 +84,10 @@ termina e/ou diagnóstico do tipo jstack/threading enumerate apontando as thread
 bloqueadas).
 <img width="1437" height="240" alt="image" src="https://github.com/user-attachments/assets/a639db67-24af-4021-9060-dd8f06922fd8" />
 sistema em deadlock
+instruções, só dar play.
+
 <img width="1391" height="200" alt="image" src="https://github.com/user-attachments/assets/01d742c0-a0c4-421c-821b-b0e9cc420bce" />
 Sistema sem deadlock
+instruções, só dar play.
+
 
