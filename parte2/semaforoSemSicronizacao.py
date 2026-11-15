@@ -12,10 +12,10 @@ def soma():
         count += 1  
 
 threads = [threading.Thread(target=soma) for i in range(numeroDeThreads)]
-inicio = time.perf_counter()
+inicio = time.time()
 for i in threads: i.start()
 for i in threads: i.join()
-tempo = time.perf_counter() - inicio
+tempo = time.time() - inicio
 
 print(f"Esperado: {valorEsperado}")
 print(f"(Sem sincronização) Obtido: {count} Tempo: {tempo:.3f}s")
