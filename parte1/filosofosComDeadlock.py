@@ -29,7 +29,7 @@ class Filosofo(threading.Thread):
                 print(f"Filósofo {self.idFilosofo} pegou o garfo {segundo_garfo.numeroGarfo}.")
     
                 print(f"Filósofo {self.idFilosofo} está comendo")
-                time.sleep(random.uniform(1, 3))
+                time.sleep(random.randint(1, 3))
     
                 segundo_garfo.lock.release()
                 primeiro_garfo.lock.release()
