@@ -1,5 +1,5 @@
 Grupo: Antony V B
-link youtube:
+link youtube: https://youtu.be/CQjFQ6-JYtA
 linguagem: Python
 
 Parte 1:
